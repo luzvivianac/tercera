@@ -1,0 +1,21 @@
+{{>header}}
+    
+    <p><B>Bienvenido al formulario para ingresar un nuevo curso</B></p>
+
+<form action="/crear" method="post">
+    Identificador del curso: <input type = 'number' name ='id' required>
+    Nombre del curso: <input type='text' name='nombre' required>
+    Descripción: <input type="text" name="descripcion" required>
+    Valor: <input type="number" name="valor" required>
+    Modalidad: <select name="modalidad">
+        <option value="-"> - </option>
+        <option value="virtual"> Virtual</option>
+        <option value="presencial"> Presencial</option>
+    </select>
+    Intensidad horaria (en horas): <input type="number" name="valor">
+    <input type = 'hidden' name ='estado' value="disponible">
+    <button> Guardar</button>
+</form>
+
+
+{{>footer}}

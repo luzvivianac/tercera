@@ -1,0 +1,5 @@
+[
+    {"id":1, "nombre": "Excel básico","descripcion":"Curso básico de Excel", "valor": 50000, "modalidad": "Presencial", "intensidad":10,"estado":"disponible"},
+    {"id":2, "nombre": "Mercadeo","descripcion":"Curso de mercadeo avanzado", "valor": 120000, "modalidad": "Virtual", "intensidad":0,"estado":"cerrado"},
+    {"id":3, "nombre": "Node js","descripcion":"Curso básico de Node.js", "valor": 30000, "modalidad": "-", "intensidad":0,"estado":"disponible"}
+]
